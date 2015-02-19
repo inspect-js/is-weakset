@@ -19,6 +19,11 @@ isWeakSet(new WeakSet());
 isWeakSet({});
 //=> false
 ```
+## Related
+
+* [`is-set`](https://github.com/arthurvr/is-set)
+* [`is-map`](https://github.com/arthurvr/is-map)
+* [`is-weakmap`](https://github.com/arthurvr/is-weakset)
 
 ## License
 
