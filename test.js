@@ -1,7 +1,6 @@
 'use strict';
-
 var test = require('ava');
-var isWeakSet = require('../');
+var isWeakSet = require('./');
 
 test(function (t) {
 	t.assert(isWeakSet(new WeakSet()));

@@ -17,7 +17,7 @@
   ],
   "repository": "arthurvr/is-weakset",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test.js"
   },
   "devDependencies": {
     "ava": "^0.0.4"
