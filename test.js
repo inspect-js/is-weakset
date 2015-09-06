@@ -3,8 +3,10 @@ var test = require('ava');
 var isWeakSet = require('./');
 
 test(function (t) {
-	t.assert(isWeakSet(new WeakSet()));
-	t.assert(!isWeakSet(new Set()));
-	t.assert(!isWeakSet({}));
-	t.assert(!isWeakSet([]));
+	t.true(isWeakSet(new WeakSet()));
+	t.false(isWeakSet(new Set()));
+	t.false(isWeakSet({}));
+	t.false(isWeakSet([]));
+
+	t.end();
 });
