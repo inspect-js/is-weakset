@@ -13,7 +13,7 @@ $ npm install --save is-weakset
 ## Usage
 
 ```javascript
-var isWeakSet = require('is-weakset');
+const isWeakSet = require('is-weakset');
 
 isWeakSet(new WeakSet());
 //=> true
