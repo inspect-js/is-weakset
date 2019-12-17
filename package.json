@@ -45,7 +45,7 @@
 		"for-each": "^0.3.3",
 		"object-inspect": "^1.7.0",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^4.11.0"
+		"tape": "^4.12.0"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
