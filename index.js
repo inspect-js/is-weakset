@@ -3,27 +3,27 @@
 var $WeakMap = typeof WeakMap === 'function' && WeakMap.prototype ? WeakMap : null;
 var $WeakSet = typeof WeakSet === 'function' && WeakSet.prototype ? WeakSet : null;
 
+var exported;
+
 if (!$WeakMap) {
 	// eslint-disable-next-line no-unused-vars
-	module.exports = function isWeakSet(x) {
+	exported = function isWeakSet(x) {
 		// `WeakSet` is not present in this environment.
 		return false;
 	};
-	return;
 }
 
 var $mapHas = $WeakMap ? $WeakMap.prototype.has : null;
 var $setHas = $WeakSet ? $WeakSet.prototype.has : null;
-if (!$setHas) {
+if (!exported && !$setHas) {
 	// eslint-disable-next-line no-unused-vars
 	module.exports = function isWeakSet(x) {
 		// `WeakSet` does not have a `has` method
 		return false;
 	};
-	return;
 }
 
-module.exports = function isWeakSet(x) {
+module.exports = exported || function isWeakSet(x) {
 	if (!x || typeof x !== 'object') {
 		return false;
 	}
