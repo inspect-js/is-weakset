@@ -1,6 +1,6 @@
 {
 	"name": "is-weakset",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Is this value a JS WeakSet? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
 	"main": "index.js",
 	"scripts": {
