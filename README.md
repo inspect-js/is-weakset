@@ -1,6 +1,5 @@
 # is-weakset <sup>[![Version Badge][2]][1]</sup>
 
-[![Build Status][3]][4]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -35,15 +34,13 @@ assert(isWeakSet(new MyWeakSet()));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-weakset
-[2]: http://versionbadg.es/inspect-js/is-weakset.svg
-[3]: https://travis-ci.org/inspect-js/is-weakset.svg
-[4]: https://travis-ci.org/inspect-js/is-weakset
+[2]: https://versionbadg.es/inspect-js/is-weakset.svg
 [5]: https://david-dm.org/inspect-js/is-weakset.svg
 [6]: https://david-dm.org/inspect-js/is-weakset
 [7]: https://david-dm.org/inspect-js/is-weakset/dev-status.svg
 [8]: https://david-dm.org/inspect-js/is-weakset#info=devDependencies
 [11]: https://nodei.co/npm/is-weakset.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/is-weakset.svg
+[license-image]: https://img.shields.io/npm/l/is-weakset.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/is-weakset.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=is-weakset
+[downloads-image]: https://img.shields.io/npm/dm/is-weakset.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=is-weakset
