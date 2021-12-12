@@ -17,7 +17,7 @@ var $mapHas = $WeakMap ? $WeakMap.prototype.has : null;
 var $setHas = $WeakSet ? $WeakSet.prototype.has : null;
 if (!exported && !$setHas) {
 	// eslint-disable-next-line no-unused-vars
-	module.exports = function isWeakSet(x) {
+	exported = function isWeakSet(x) {
 		// `WeakSet` does not have a `has` method
 		return false;
 	};
