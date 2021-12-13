@@ -11,7 +11,7 @@
 		"pretest": "npm run lint",
 		"lint": "eslint --ext=js,mjs .",
 		"tests-only": "nyc tape 'test/**/*.js'",
-		"tests:shims": "nyc tape --require=es5-shim --require=es5-shim 'test/**/*.js'",
+		"tests:shims": "nyc tape --require=es5-shim --require=es6-shim 'test/**/*.js'",
 		"tests:corejs": "nyc tape --require=core-js 'test/**/*.js'",
 		"test": "npm run tests-only && npm run tests:shims && npm run tests:corejs",
 		"posttest": "aud --production"
