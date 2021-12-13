@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.2](https://github.com/inspect-js/is-weakset/compare/v2.0.1...v2.0.2) - 2021-12-12
+
+### Commits
+
+- [actions] reuse common workflows [`a8f7c7f`](https://github.com/inspect-js/is-weakset/commit/a8f7c7fa22088dabbadf82cd52cf962eca646c59)
+- [Tests] migrate tests to Github Actions [`f38af72`](https://github.com/inspect-js/is-weakset/commit/f38af729300d425360caad1763e7f904dcd3e393)
+- [Refactor] use `call-bind` and `get-intrinsic` to be more robust [`5102e7e`](https://github.com/inspect-js/is-weakset/commit/5102e7ef227f06da1bc8dcee2579af74f1e1a477)
+- [meta] do not publish github action workflow files [`6ac6e8e`](https://github.com/inspect-js/is-weakset/commit/6ac6e8e5b15181e73d30f6d37e41955372b07792)
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`304af52`](https://github.com/inspect-js/is-weakset/commit/304af52f4c40743b055e252d50c8e804cac4054f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `es6-shim`, `object-inspect`, `tape` [`b82fb5f`](https://github.com/inspect-js/is-weakset/commit/b82fb5fafdeea05f93420e0966fe63785362649a)
+- [Tests] run `nyc` on all tests; use `tape` runner [`89e2611`](https://github.com/inspect-js/is-weakset/commit/89e26115ab1aa58b37816d6b5e2aad62508bd79c)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `es5-shim`, `object-inspect`, `safe-publish-latest`, `tape` [`42b0bdc`](https://github.com/inspect-js/is-weakset/commit/42b0bdc5a8785ddb589ea16629c933ec01359ca8)
+- [actions] update codecov uploader [`112697a`](https://github.com/inspect-js/is-weakset/commit/112697aaf3b6f2e22275575ce4b684059fa5dcaa)
+- [actions] add "Allow Edits" workflow [`1af6ffe`](https://github.com/inspect-js/is-weakset/commit/1af6ffe2793a5784ac70048e50850f4d6e650de4)
+- [readme] remove travis badge [`dff769b`](https://github.com/inspect-js/is-weakset/commit/dff769b367aa4886ab082dd6330cbc54d0dcf03f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `object-inspect`, `tape` [`4494ced`](https://github.com/inspect-js/is-weakset/commit/4494cedea891e3617768b30721e3b5ddee5c41e4)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `es5-shim`, `tape` [`a2c11c6`](https://github.com/inspect-js/is-weakset/commit/a2c11c6dcef990b7f6fabb26d58837a7fe4f3a3e)
+- [Tests] add `core-js` tests [`cd619e9`](https://github.com/inspect-js/is-weakset/commit/cd619e95f64cc02cbec8f4b0b29a806f371eab9e)
+- [readme] add actions and codecov badges [`d3cbefe`](https://github.com/inspect-js/is-weakset/commit/d3cbefeb526773a565eb4e501b2e7da7947b215d)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`3d54035`](https://github.com/inspect-js/is-weakset/commit/3d54035e2ca66969f6cc779b85902ac3507d7297)
+- [Dev Deps] update `auto-changelog`, `eslint` [`a80fb4a`](https://github.com/inspect-js/is-weakset/commit/a80fb4a7c1a90a2929d80f9b2a9adaa56c94d2d2)
+- [actions] switch Automatic Rease workflow to `pull_request_target` event [`b3b8aee`](https://github.com/inspect-js/is-weakset/commit/b3b8aeeb3e133d88da897d42530aea4bcc729b23)
+- [Dev Deps] update `es5-shim`, `tape` [`5ba5ca8`](https://github.com/inspect-js/is-weakset/commit/5ba5ca84a3d4bb4acacb9fd9265a21476d4f0457)
+- [meta] use `prepublishOnly` script for npm 7+ [`b4f7636`](https://github.com/inspect-js/is-weakset/commit/b4f76366574ac4b4d854c330cbad33a8d9ff48ff)
+- [Dev Deps] update `auto-changelog`; add `aud` [`2ccd594`](https://github.com/inspect-js/is-weakset/commit/2ccd5944c8fd161fa463620de268bd6f40ff0e59)
+- [Fix] when `WeakSet` lacks a `has`, return false [`53a2cbc`](https://github.com/inspect-js/is-weakset/commit/53a2cbce11d2493b4ff82132f3d14e22c909b541)
+- [Tests] only audit prod deps [`f74aaf5`](https://github.com/inspect-js/is-weakset/commit/f74aaf5746fc49d424742184025288d0d565639c)
+- [meta] normalize line endings [`31f60a6`](https://github.com/inspect-js/is-weakset/commit/31f60a6a70e38851743e602e30bb0907cd3cc6ba)
+
 ## [v2.0.1](https://github.com/inspect-js/is-weakset/compare/v2.0.0...v2.0.1) - 2019-12-17
 
 ### Fixed
