@@ -59,5 +59,9 @@
 		"commitLimit": false,
 		"backfillLimit": false,
 		"hideCredit": true
+	},
+	"dependencies": {
+		"call-bind": "^1.0.2",
+		"get-intrinsic": "^1.1.1"
 	}
 }
