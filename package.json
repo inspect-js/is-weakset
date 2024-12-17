@@ -42,14 +42,13 @@
 	},
 	"homepage": "https://github.com/inspect-js/is-weakset#readme",
 	"dependencies": {
-		"call-bind": "^1.0.8",
+		"call-bound": "^1.0.3",
 		"get-intrinsic": "^1.2.6"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.17.1",
 		"@ljharb/eslint-config": "^21.1.1",
 		"@ljharb/tsconfig": "^0.2.2",
-		"@types/call-bind": "^1.0.5",
 		"@types/for-each": "^0.3.3",
 		"@types/get-intrinsic": "^1.2.3",
 		"@types/object-inspect": "^1.13.0",
